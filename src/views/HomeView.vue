@@ -140,7 +140,6 @@ onUnmounted(() => clearInterval(timer))
   padding: 5rem 0 4rem;
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
 
 }
 .hero__bg-circle {
