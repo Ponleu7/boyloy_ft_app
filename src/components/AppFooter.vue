@@ -2,9 +2,9 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__grid">
-
         <div class="footer__brand">
-          <div class="footer__crest">BFC</div>
+          <img :src="logo" alt="BoyLoy Logo" class="footer__logo" />
+
           <p class="footer__tagline">Passion. Pride. Community.</p>
         </div>
 
@@ -27,19 +27,19 @@
           <RouterLink to="/news">News</RouterLink>
           <RouterLink to="/gallery">Gallery</RouterLink>
         </div>
-
       </div>
 
       <div class="footer__bottom">
         <p>© {{ year }} <span>Boyloy FC</span>. All rights reserved.</p>
-        <p>Built with passion</p>
+        <p>Built with ❤️ by <span>PL7</span></p>
       </div>
     </div>
   </footer>
 </template>
 
 <script setup>
-const year = new Date().getFullYear()
+import logo from "@/assets/boyloy_logo1.png";
+const year = new Date().getFullYear();
 </script>
 
 <style scoped>
@@ -55,6 +55,10 @@ const year = new Date().getFullYear()
   gap: 2rem;
   margin-bottom: 2.5rem;
 }
+.footer__logo {
+  width: 74px;
+  height: auto;
+}
 .footer__crest {
   width: 48px;
   height: 48px;
@@ -67,10 +71,10 @@ const year = new Date().getFullYear()
   font-family: var(--font-display);
   font-size: 16px;
   color: var(--color-secondary);
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 .footer__tagline {
-  font-size: .82rem;
+  font-size: 0.82rem;
   color: var(--color-text-muted);
   line-height: 1.6;
 }
@@ -78,37 +82,45 @@ const year = new Date().getFullYear()
   font-family: var(--font-display);
   font-size: 1rem;
   color: var(--color-secondary);
-  letter-spacing: .08em;
-  margin-bottom: .8rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.8rem;
 }
 .footer__col a {
   display: block;
-  font-size: .82rem;
+  font-size: 0.82rem;
   color: var(--color-text-muted);
-  margin-bottom: .4rem;
-  transition: color .15s;
+  margin-bottom: 0.4rem;
+  transition: color 0.15s;
 }
-.footer__col a:hover { color: var(--color-text); }
+.footer__col a:hover {
+  color: var(--color-text);
+}
 .footer__bottom {
-  border-top: 1px solid rgba(212,148,35,.1);
+  border-top: 1px solid rgba(212, 148, 35, 0.1);
   padding-top: 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: .5rem;
-  font-size: .75rem;
+  gap: 0.5rem;
+  font-size: 0.75rem;
   color: #4a3a34;
 }
-.footer__bottom span { color: var(--color-secondary); }
+.footer__bottom span {
+  color: var(--color-secondary);
+}
 
 @media (max-width: 768px) {
   .footer__grid {
     grid-template-columns: 1fr 1fr;
   }
-  .footer__brand { grid-column: 1 / -1; }
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
 }
 @media (max-width: 480px) {
-  .footer__grid { grid-template-columns: 1fr; }
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

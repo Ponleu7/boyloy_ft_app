@@ -5,13 +5,13 @@
     <section class="hero">
       <div class="hero__bg-circle"></div>
       <div class="container hero__inner">
-        <p class="hero__label">2024 / 25 Season</p>
+        <p class="hero__label">2025 / 26 Season</p>
         <h1 class="hero__title">
           Welcome to<br>
           <span>Boyloy FC</span>
         </h1>
         <p class="hero__sub">
-          Follow every match, every goal, every story from our club.
+          Follow every match, every goal, every story from Boyloy FT.
         </p>
         <div class="hero__btns">
           <RouterLink to="/fixtures" class="btn btn-primary">View Fixtures</RouterLink>
