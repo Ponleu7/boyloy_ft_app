@@ -6,7 +6,7 @@
     </div>
   </div>
 
-<div class="container section">
+<div class="container section store-section">
      <div class="store-grid">
     <div v-for="item in filtered" :key="item.id" class="store-card">
       <img
@@ -166,5 +166,18 @@ const filtered = computed(() => {
   align-items: center;
   gap: 12px;
   justify-content: space-between;
+}
+
+
+@media (max-width: 640px) {
+  .store-grid {
+  margin-top: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 1rem;
+}
+.store-section{
+  padding: 1rem;
+}
+  
 }
 </style>

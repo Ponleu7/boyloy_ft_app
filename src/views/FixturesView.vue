@@ -3,12 +3,12 @@
 
     <div class="page-header">
       <div class="container">
-        <p class="page-label">2024 / 25 Season</p>
+        <p class="page-label">2025 / 26 Season</p>
         <h1 class="page-title">Fixtures <span>&</span> Results</h1>
       </div>
     </div>
 
-    <div class="container section">
+    <div class="container section fixtures-section">
 
       <!-- Filter tabs -->
       <div class="filters">
@@ -49,7 +49,7 @@
                 {{ match.awayTeam }}
               </span>
             </div>
-            <div class="fixture-meta">
+            <div class="fixture-meta"> 
               <span class="badge">{{ match.competition }}</span>
               <span class="venue-tag" :class="match.venue.toLowerCase()">
                 {{ match.venue }}
@@ -300,7 +300,11 @@ const formatTime  = (iso) => new Date(iso).toLocaleTimeString('en-GB', { hour: '
     grid-template-columns: 48px 1fr auto;
     grid-template-rows: auto auto;
   }
-  .fixture-meta { grid-row: 2; grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; }
+  .fixture-meta { display: none; }
   .fixture-result { grid-row: 1 / 3; }
+  .fixtures-section { padding: 1rem; }
+  .finished {
+    gap: 0;
+  }
 }
 </style>

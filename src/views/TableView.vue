@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="container section">
+    <div class="container section table-section">
 
       <div class="table-wrap">
         <table class="league-table">
@@ -255,4 +255,7 @@ td { padding: .8rem 1rem; color: var(--color-text); }
 .legend-dot.promo      { background: #4caf50; }
 .legend-dot.relegation { background: #e53935; }
 .legend-dot.boyloy     { background: var(--color-secondary); }
+.table-section {
+ padding: 1rem;
+}
 </style>

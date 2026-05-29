@@ -1,7 +1,7 @@
 export const fixtures = [
   {
     id: 1,
-    date: '2025-05-25T15:00:00',
+    date: '2026-05-25T15:00:00',
     homeTeam: 'Boyloy FC',
     awayTeam: 'Rivals FC',
     homeScore: 3,
@@ -12,7 +12,7 @@ export const fixtures = [
   },
   {
     id: 2,
-    date: '2025-05-18T15:00:00',
+    date: '2026-05-18T15:00:00',
     homeTeam: 'Northern FC',
     awayTeam: 'Boyloy FC',
     homeScore: 0,
@@ -23,7 +23,7 @@ export const fixtures = [
   },
   {
     id: 3,
-    date: '2025-05-11T14:00:00',
+    date: '2026-05-11T14:00:00',
     homeTeam: 'Boyloy FC',
     awayTeam: 'East Side FC',
     homeScore: 1,
@@ -34,7 +34,7 @@ export const fixtures = [
   },
   {
     id: 4,
-    date: '2025-05-04T15:00:00',
+    date: '2026-05-04T15:00:00',
     homeTeam: 'Valley United',
     awayTeam: 'Boyloy FC',
     homeScore: 2,
@@ -45,7 +45,7 @@ export const fixtures = [
   },
   {
     id: 5,
-    date: '2025-06-07T15:00:00',
+    date: '2026-06-07T15:00:00',
     homeTeam: 'Boyloy FC',
     awayTeam: 'City United',
     homeScore: null,
@@ -56,7 +56,7 @@ export const fixtures = [
   },
   {
     id: 6,
-    date: '2025-06-14T15:00:00',
+    date: '2026-06-14T15:00:00',
     homeTeam: 'FC Westpark',
     awayTeam: 'Boyloy FC',
     homeScore: null,
@@ -67,7 +67,7 @@ export const fixtures = [
   },
   {
     id: 7,
-    date: '2025-06-21T15:00:00',
+    date: '2026-06-21T15:00:00',
     homeTeam: 'Boyloy FC',
     awayTeam: 'Southgate Athletic',
     homeScore: null,

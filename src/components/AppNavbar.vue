@@ -167,5 +167,9 @@ onUnmounted(() => window.removeEventListener("scroll", onScroll));
   .navbar__links a {
     padding: 0.65rem 1rem;
   }
+  .navbar__logo {
+    width: 70px;
+    height: auto;
+  }
 }
 </style>

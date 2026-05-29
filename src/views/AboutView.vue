@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <div class="container section">
+  <div class="container section about-section">
     <div class="about-content">
       <p>
         <span>Boyloy FT (CADT Boyloy FT)</span> is a student-led football team
@@ -92,5 +92,15 @@
 .about-content h3 {
   margin-top: 2rem;
   color: var(--color-secondary);
+}
+
+@media (max-width: 640px) {
+  .about-section {
+    padding: 1rem 1.5rem;
+  }
+  .about-content {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
 </style>

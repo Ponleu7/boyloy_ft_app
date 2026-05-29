@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="container section">
+    <div class="container section news-section">
 
       <!-- Category filter -->
       <div class="filters">
@@ -269,5 +269,8 @@ const filtered = computed(() =>
 @media (max-width: 640px) {
   .featured-card { grid-template-columns: 1fr; }
   .featured-image { min-height: 180px; }
+  .news-section {
+    padding : 1rem;
+  }
 }
 </style>

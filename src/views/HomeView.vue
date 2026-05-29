@@ -321,6 +321,7 @@ onUnmounted(() => clearInterval(timer))
 
 /* ── Responsive ───────────────────────────── */
 @media (max-width: 768px) {
-  .home-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .home-grid { grid-template-columns: 1fr; gap: 2rem; padding: 1rem; }
+
 }
 </style>

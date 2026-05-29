@@ -12,7 +12,7 @@
           <h4>Club</h4>
           <RouterLink to="/about">About us</RouterLink>
           <RouterLink to="/about">History</RouterLink>
-          <RouterLink to="/contact">Contact</RouterLink>
+          <RouterLink to="/">Contact</RouterLink>
         </div>
 
         <div class="footer__col">
@@ -25,7 +25,7 @@
         <div class="footer__col">
           <h4>Media</h4>
           <RouterLink to="/news">News</RouterLink>
-          <RouterLink to="/gallery">Gallery</RouterLink>
+          <RouterLink to="/">Gallery</RouterLink>
         </div>
       </div>
 
@@ -117,10 +117,18 @@ const year = new Date().getFullYear();
   .footer__brand {
     grid-column: 1 / -1;
   }
+  .footer__logo {
+  width: 64px;
+  height: auto;
+}
 }
 @media (max-width: 480px) {
   .footer__grid {
     grid-template-columns: 1fr;
   }
+  .footer__logo {
+  width: 60px;
+  height: auto;
+}
 }
 </style>

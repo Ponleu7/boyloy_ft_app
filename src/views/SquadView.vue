@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div class="container section">
+    <div class="container section squad-section">
       <!-- Position filter -->
       <div class="filters">
         <button
@@ -234,5 +234,13 @@ const posShort = (pos) => {
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
   flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .squad-section {
+   padding: 1rem;
+   padding-bottom: 0;
+  }
+  
 }
 </style>
