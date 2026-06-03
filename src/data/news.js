@@ -9,7 +9,7 @@ export const news = [
 Adisak opened the scoring in the 23rd minute with a precise finish from the edge of the box. After the visitors equalised, Suphat restored the lead with a powerful header on 58 minutes, before Teerasak sealed the win with a cool finish in the 74th minute.
 
 It was a vital three points that keeps Boyloy FC firmly in contention at the top of the table. The manager praised the team's discipline and intensity throughout the ninety minutes.`,
-    date: '25 May 2025',
+    date: '25 May 2026',
     author: 'Club Media',
     image: null,
   },
@@ -23,7 +23,7 @@ It was a vital three points that keeps Boyloy FC firmly in contention at the top
 The new signing said: "I'm delighted to be here. The club has great ambition and I want to help the team achieve its goals this season."
 
 He will be available for selection immediately and is expected to feature in the squad this weekend.`,
-    date: '22 May 2025',
+    date: '22 May 2026',
     author: 'Club Media',
     image: null,
   },
@@ -37,7 +37,7 @@ He will be available for selection immediately and is expected to feature in the
 The evening will celebrate the best performers of the 2024/25 campaign, with awards including Player of the Season, Young Player of the Season, and Goal of the Season.
 
 Tickets are available to all club members and supporters. More details on how to purchase tickets will be announced shortly via the club's social media channels.`,
-    date: '20 May 2025',
+    date: '20 May 2026',
     author: 'Club Media',
     image: null,
   },
@@ -51,7 +51,7 @@ Tickets are available to all club members and supporters. More details on how to
 The session will run from 18:00 to 19:30 and supporters of all ages are welcome to attend free of charge. It's a great opportunity for fans to get up close with the players and show their support ahead of a crucial match.
 
 The manager confirmed the squad is in good health with no new injury concerns ahead of the game.`,
-    date: '18 May 2025',
+    date: '18 May 2026',
     author: 'Club Media',
     image: null,
   },

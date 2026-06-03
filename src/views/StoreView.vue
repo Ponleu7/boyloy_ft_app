@@ -7,7 +7,10 @@
   </div>
 
 <div class="container section store-section">
-     <div class="store-grid">
+  <div class="store-intro">
+    Explore our best quality products at unbeatable prices.
+  </div>
+  <div class="store-grid">
     <div v-for="item in filtered" :key="item.id" class="store-card">
       <img
         :src="item.image"
@@ -84,7 +87,9 @@ const filtered = computed(() => {
   color: #bdbdbd;
   line-height: 1.7;
 }
-
+.store-intro {
+  margin-bottom: 2rem;
+}
 /* GRID */
 .store-grid {
   margin-top: 2rem;
