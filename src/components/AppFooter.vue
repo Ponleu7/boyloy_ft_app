@@ -25,7 +25,7 @@
         <div class="footer__col">
           <h4>Media</h4>
           <RouterLink to="/news">News</RouterLink>
-          <RouterLink to="/">Gallery</RouterLink>
+          <RouterLink to="/tickets">Tickets</RouterLink>
         </div>
       </div>
 
@@ -118,17 +118,17 @@ const year = new Date().getFullYear();
     grid-column: 1 / -1;
   }
   .footer__logo {
-  width: 64px;
-  height: auto;
-}
+    width: 64px;
+    height: auto;
+  }
 }
 @media (max-width: 480px) {
   .footer__grid {
     grid-template-columns: 1fr;
   }
   .footer__logo {
-  width: 60px;
-  height: auto;
-}
+    width: 60px;
+    height: auto;
+  }
 }
 </style>

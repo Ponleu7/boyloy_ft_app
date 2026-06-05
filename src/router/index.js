@@ -6,9 +6,11 @@ import SquadView    from '@/views/SquadView.vue'
 import NewsView     from '@/views/NewsView.vue'
 import NewsDetail   from '@/views/NewsDetail.vue'
 import TableView    from '@/views/TableView.vue'
-import StoreView  from '@/views/StoreView.vue'
+import StoreView    from '@/views/StoreView.vue'
 import AboutView    from '@/views/AboutView.vue'
-// import ContactView  from '@/views/ContactView.vue'
+import TicketsView  from '@/views/TicketsView.vue'
+import TicketDetail from '@/views/TicketDetail.vue'
+
 
 const routes = [
   { path: '/',          name: 'home',       component: HomeView },
@@ -17,9 +19,10 @@ const routes = [
   { path: '/news',      name: 'news',       component: NewsView },
   { path: '/news/:id',  name: 'news-detail',component: NewsDetail },
   { path: '/table',     name: 'table',      component: TableView },
-  { path: '/store',    name: 'store',    component: StoreView },
+  { path: '/store',     name: 'store',    component: StoreView },
   { path: '/about',     name: 'about',      component: AboutView },
-//   { path: '/contact',   name: 'contact',    component: ContactView },
+  { path: '/tickets',   name: 'tickets',    component: TicketsView },
+  { path: '/tickets/:id', name: 'ticket-detail', component: TicketDetail },
 ]
 
 export default createRouter({

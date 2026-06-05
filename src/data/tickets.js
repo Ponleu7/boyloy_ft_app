@@ -1,0 +1,60 @@
+export const tickets = [
+  {
+    id: 1,
+    matchId: 5,
+    homeTeam: 'Boyloy FC',
+    awayTeam: 'City United',
+    competition: 'League',
+    date: '2025-06-07T15:00:00',
+    venue: 'Boyloy Stadium',
+    address: 'Street 271, Phnom Penh',
+    status: 'available', // available | soldout | free
+    categories: [
+      { name: 'General Stand',  price: 5000,  unit: 'KHR', available: true },
+      { name: 'Family Zone',    price: 8000,  unit: 'KHR', available: true },
+      { name: 'VIP Seat',       price: 15000, unit: 'KHR', available: true },
+    ],
+    whereToBy: [
+      { label: 'At the stadium gate', detail: 'Opens 2 hours before kick-off' },
+      { label: 'Club Facebook page',  detail: 'Message us to reserve your seat' },
+      { label: 'Call us',             detail: '+855 12 345 678' },
+    ],
+    notes: 'Children under 5 enter free. Gates open 90 minutes before kick-off.',
+  },
+  {
+    id: 2,
+    matchId: 6,
+    homeTeam: 'FC Westpark',
+    awayTeam: 'Boyloy FC',
+    competition: 'League',
+    date: '2025-06-14T15:00:00',
+    venue: 'Westpark Arena',
+    address: 'Street 60, Phnom Penh',
+    status: 'available',
+    categories: [
+      { name: 'Away End',  price: 6000, unit: 'KHR', available: true },
+      { name: 'VIP Seat',  price: 12000, unit: 'KHR', available: false },
+    ],
+    whereToBy: [
+      { label: 'FC Westpark ticket office', detail: 'Open Mon–Sat 09:00–17:00' },
+      { label: 'Call us',                   detail: '+855 12 345 678' },
+    ],
+    notes: 'Away supporters are allocated the north end stand only.',
+  },
+  {
+    id: 3,
+    matchId: 7,
+    homeTeam: 'Boyloy FC',
+    awayTeam: 'Southgate Athletic',
+    competition: 'Cup',
+    date: '2025-06-21T15:00:00',
+    venue: 'Boyloy Stadium',
+    address: 'Street 271, Phnom Penh',
+    status: 'free',
+    categories: [],
+    whereToBy: [
+      { label: 'Free entry', detail: 'No ticket required — just show up!' },
+    ],
+    notes: 'Cup group stage matches are free admission for all supporters.',
+  },
+]
